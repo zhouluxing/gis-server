@@ -36,7 +36,7 @@ public class RasterSliceTMS {
     public static void main(String[] args) throws Exception {
         File rasterFile = new File("E:\\code\\github\\gis-server\\data\\tiff\\320205_3857.tif");
         RasterSliceTMS rasterSliceTMS2 = new RasterSliceTMS();
-        String output = "E:\\code\\github\\gis-server\\data\\output\\RasterSliceTMS";
+        String output = "D:\\code\\github\\gis-server\\data\\output\\RasterSliceTMS";
         for (int i = 1; i <= 10; i++) {
             // 从向导中获取用户输入的文件，并调用displayLayers方法显示图层
             rasterSliceTMS2.displayLayers(rasterFile, i, output);

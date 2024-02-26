@@ -68,7 +68,7 @@ public class WMSLoader {
             // Now, you have the image and can process/display it
 
             // Save the image to local file
-            File outputFile = new File("E:\\code\\github\\gis-server\\data\\output\\wms\\Image2022.jpg"); // Replace 'path/to/save/location' with your desired path
+            File outputFile = new File("D:\\code\\github\\gis-server\\data\\output\\wms\\Image2022.jpg"); // Replace 'path/to/save/location' with your desired path
             ImageIO.write(image, "jpeg", outputFile);
             System.out.println("Image saved to: " + outputFile.getAbsolutePath());
 
@@ -79,10 +79,10 @@ public class WMSLoader {
     }
 
     public static void test1() {
-        String path = "E:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
+        String path = "D:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
         Style style = SldRenderer.readSldReturnOne(path);
         // 加载 Shapefile
-        File file = new File("E:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
+        File file = new File("D:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
         URL shapefileURL = null;
 
         try {

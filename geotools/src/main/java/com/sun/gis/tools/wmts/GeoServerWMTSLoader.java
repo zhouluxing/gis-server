@@ -34,10 +34,10 @@ public class GeoServerWMTSLoader {
     }
 
     public static void test_4326() {
-        String path = "E:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
+        String path = "D:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
         Style style = SldRenderer.readSldReturnOne(path);
         // 加载 Shapefile
-        File file = new File("E:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
+        File file = new File("D:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
         URL shapefileURL = null;
 
         try {
@@ -84,10 +84,10 @@ public class GeoServerWMTSLoader {
     }
 
     public static void test_3857() {
-        String path = "E:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
+        String path = "D:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
         Style style = SldRenderer.readSldReturnOne(path);
         // 加载 Shapefile
-        File file = new File("E:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
+        File file = new File("D:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
         URL shapefileURL = null;
 
         try {
@@ -135,10 +135,10 @@ public class GeoServerWMTSLoader {
 
 
     public static void test1() {
-        String path = "E:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
+        String path = "D:\\code\\github\\gis-server\\data\\sld\\model_1.1.0_320205.sld";
         Style style = SldRenderer.readSldReturnOne(path);
         // 加载 Shapefile
-        File file = new File("E:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
+        File file = new File("D:\\code\\github\\gis-server\\data\\shapefile\\320205_county.shp");
         URL shapefileURL = null;
 
         try {
